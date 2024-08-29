@@ -53,7 +53,8 @@ async def start(client, message):
                     InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🌀 Hᴇʟᴘ🌀', callback_data='help'),
-                    InlineKeyboardButton(' 🌀Aʙᴏᴜᴛ🌀', callback_data='about'),
+                    InlineKeyboardButton(' 🌀Aʙᴏᴜᴛ🌀', callback_data='about')
+                ],[
                     InlineKeyboardButton('🔎 Find The Movie Here🔍', switch_inline_query_current_chat='')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -103,7 +104,8 @@ async def start(client, message):
                     InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🌀 Hᴇʟᴘ🌀', callback_data='help'),
-                    InlineKeyboardButton(' 🌀Aʙᴏᴜᴛ🌀', callback_data='about'),
+                    InlineKeyboardButton(' 🌀Aʙᴏᴜᴛ🌀', callback_data='about')
+                ],[
                     InlineKeyboardButton('🔎 Find The Movie Here🔍', switch_inline_query_current_chat='')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
