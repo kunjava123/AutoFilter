@@ -69,7 +69,12 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /search  - <code>ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴍ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ꜰʀᴏᴍ ᴠᴀʀɪᴏᴜꜱ ꜱᴏᴜʀᴄᴇꜱ.</code>
 • /enhance - <code>ᴛᴏ ᴇɴʜᴀɴᴄᴇ ᴀ ᴘʜᴏᴛᴏ.</code>
 • /upscale - <code>ᴛᴏ ɪᴍᴘʀᴏᴠᴇ ᴘʜᴏᴛᴏ ǫᴜᴀʟɪᴛʏ.</code>
-• /gpt - <code>ᴛᴏ ᴀsᴋ ʏᴏᴜ ᴀʀᴇ ǫᴜᴇsᴛɪᴏɴs.</code>"""
+• /gpt - <code>ᴛᴏ ᴀsᴋ ʏᴏᴜ ᴀʀᴇ ǫᴜᴇsᴛɪᴏɴs.</code>
+• /stickerid - <code>ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴛɪᴄᴋᴇʀ ɪᴅ.</code>
+• /image - <code>ᴛᴏ sᴇᴀʀᴄʜ ɪᴍᴀɢᴇs.</code>
+• /tr - <code>ᴛᴏ ᴛʀᴀɴsʟᴀᴛᴇ.</code>
+• /tts - <code>ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ.</code>
+• /telegraph - <code>ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ . sᴇɴᴅɪɴɢ ʟᴇss ᴛʜᴀɴ 5ᴍʙ ɪs ᴀʟʟᴏᴡᴇᴅ.</code>"""
 
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>
