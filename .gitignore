@@ -42,6 +42,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+pip install httpx
 
 # Unit test / coverage reports
 htmlcov/
