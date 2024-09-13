@@ -22,6 +22,7 @@ youtube-dl
 youtube_search
 requests
 gTTS
+Mangandi
 googletrans==3.1.0a0
 telegraph
 PyPDF2
