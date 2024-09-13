@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from Mangandi import ImageUploader, VideoUploader
 
-@Client.on_message(filters.command(["mangandi", "telegraph" "img2link", "manga", "ma","vid2link"]))
+@Client.on_message(filters.command(["mangandi", "telegraph", "img2link", "manga", "ma","vid2link"]))
 async def mangandi(client, message):
     if message.reply_to_message:
         if message.reply_to_message.photo:
