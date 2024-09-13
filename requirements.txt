@@ -21,7 +21,6 @@ yt-dlp==2023.2.17
 youtube-dl
 youtube_search
 requests
-aiohttp==3.7.4
 gTTS
 googletrans==3.1.0a0
 telegraph
