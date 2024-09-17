@@ -22,9 +22,9 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'False')), False)
 
 PICS = (environ.get('PICS', '')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/0c075dcce3e19fac9a56c.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/w-0.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/w-W.jpg")
 
 # Admins, Channels & Users
 support_chat_id = environ.get('SUPPORT_CHAT_ID')
