@@ -5,13 +5,15 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/mntgxo'>Mᴜsᴀᴍᴍɪʟ Nᴇʟʟᴇɴɢᴀʀᴀ</a>
-✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
+    ABOUT_TXT = """<b><quote>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+✯ Dᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/aktelegram1>Tʜɪꜱ Pᴇʀꜱᴏɴ</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/aktelegram1>𝙰𝚕𝚋𝚎𝚛𝚝 ꠵ࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧ 𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗</a>
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: ʀᴇɴᴅᴇʀ
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v3 [ Sᴛᴀʙʟᴇ 𝙱𝙴𝚃𝙰 ]</quote></b>"""
+    
     SOURCE_TXT = """<b>കൊട്ക്ക്ണില്ല്യാ</b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -99,18 +101,18 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    STATUS_TXT = """<b>Tᴏᴛᴀʟ Fɪʟᴇs Fʀᴏᴍ Bᴏᴛʜ DBs: <code>{}</code>
+    STATUS_TXT = """<b>Tᴏᴛᴀʟ Fɪʟᴇs :-<code>{}</code>
 
 Bᴏᴛ Usᴇʀs ᴀɴᴅ Cʜᴀᴛs Cᴏᴜɴᴛ
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 
-Pʀɪᴍᴀʀʏ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛɪsᴛɪᴄs 
+Pʀɪᴍᴀʀʏ DB
 ★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 
-Sᴇᴄᴏɴᴅᴀʀʏ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛɪsᴛɪᴄs
+Sᴇᴄᴏɴᴅᴀʀʏ DB
 ★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
@@ -214,19 +216,7 @@ Hi Gentleman 😍 You're File Is Ready,(^_^)
 <pre>
 💾 Size: {file_size}
   </pre>
-<blockquote>
-╔═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs   ═╗
-Jᴏɪɴ :- [MAIN CHANNEL](https://t.me/New_indian_cinemas)
-Jᴏɪɴ :- [MOVIE UPDATES](https://t.me/new_ott_movies3)
-Jᴏɪɴ :- [Movie Group 1](https://t.me/MOVIES_GROUP_MN)
-Jᴏɪɴ :- [Movie Group 2](https://t.me/all_movies_group2)
-Jᴏɪɴ :- [Movie Group 3](https://t.me/mallu_movies4)
-Jᴏɪɴ :- [Movie Group 4](https://t.me/Netflix_Group3)
-Jᴏɪɴ :- [Movie Group 5](https://t.me/Malayalam_Movie_Request_group)
-Jᴏɪɴ :- [Movie Group 6](https://t.me/English_Movie_search)
-Jᴏɪɴ :- [Movie Group 7](https://t.me/New_Release_Group)
-Jᴏɪɴ :- [Movie Group 8](https://t.me/+_c0Cj--mClszZDY1)
-╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝ """
+<blockquote> """
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
@@ -260,7 +250,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
-
+2db
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
