@@ -68,11 +68,16 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Yᴏᴜʀ ᴍᴇssᴀɢᴇ ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !</b>")
+    await message.reply_text("<b>ʜᴇʏ Mʀ.Bʀᴏ😍 ,\n\n ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ᴏɴ ᴏᴜʀ <a href='https://t.me/mallumovieworldmain'>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ​👇</b>",
+                             reply_markup=InlineKeyboardMarkup(
+                                 [[
+                                     InlineKeyboardButton('📕 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ', url='https://t.me/mallumovieworldmain')
+                                 ]]
+                             )
+                             )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
+        text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
     )
 
 @Client.on_callback_query(filters.regex(r"^next"))
@@ -152,25 +157,20 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    
                 ]
             )
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    
                 ]
             )            
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                
             ]
         )
     try:
@@ -243,7 +243,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        
     ])
     try:
         await query.edit_message_reply_markup(
@@ -326,17 +326,14 @@ async def language_check(bot, query):
             if settings['auto_delete']:
                 btn.insert(0, 
                     [
-                        InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                        InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                        InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                        
                     ]
                 )
 
             else:
                 btn.insert(0, 
                     [
-                        InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                        InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                        
                     ]
                 )
                     
@@ -344,9 +341,7 @@ async def language_check(bot, query):
             await save_group_settings(query.message.chat.id, 'auto_delete', True)
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    
                 ]
             )
         
@@ -356,7 +351,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+            
         ])
 
         if offset != "":
@@ -1224,7 +1219,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🕵️Movie Group🕵️', url=GRP_LNK),
+            
             InlineKeyboardButton('❤️Sᴏᴜʀᴄᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('🏠Hᴏᴍᴇ🏠', callback_data='start'),
@@ -1605,25 +1600,20 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    
                 ]
             )
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    
                 ]
             )       
     except KeyError:
         await save_group_settings(message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                
             ]
         )
 
@@ -1633,7 +1623,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        
     ])
 
     if offset != "":
