@@ -1425,7 +1425,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/mntgxo")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/aktelegram1")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1683,7 +1683,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hᴇʏ 👋🏻{message.from_user.mention}💝,\n📫 Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}.</b>"
+        cap = f"<b>Hᴇʏ 👋🏻 {user} 💝,\n📫 Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}.</b>"
     if imdb and imdb.get('poster'):
         try:
             mes=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
