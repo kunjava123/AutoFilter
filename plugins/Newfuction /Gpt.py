@@ -4,9 +4,9 @@ import httpx
 import asyncio
 
 # Define the API URL and the role as constants
-API_URL = "https://horrid-api-yihb.onrender.com/ai?model=5"
+API_URL = "https://horridapi2-0.onrender.com/ai?model=5"
 ASSISTANT_ROLE = """You are a helpful assistant. 
-                    Your name is Minnal Murali . Your owner is MN TG @mntgxo. 
+                    Your name is Mohanlal . Your owner is MN TG @mntgxo. 
                     Your developer is MN TG. 
                     For Telegram, contact him at @mntgxo. Owned by @mntgxo"""
 
