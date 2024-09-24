@@ -12,7 +12,7 @@ async def imagine(client, message):
         return        
     prompt = prompt[1]
     m = await message.reply("**Please wait for a few seconds..**")    
-    url = f"https://horrid-api-yihb.onrender.com/imagine?prompt={prompt}&api_key=horridapi_OPmNaSRCp6mjamT0WDguLA_free_key"
+    url = f"https://horridapi2-0.onrender.com/imagine?prompt={prompt}&api_key=horridapi_OPmNaSRCp6mjamT0WDguLA_free_key"
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             image_data = await response.read()
