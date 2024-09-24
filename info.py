@@ -16,6 +16,9 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ['API_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
+BOT_USERNAME = environ.get("BOT_USERNAME", "Mallubotbotbotbotbotbotmallubot")
+BOT_NAME = environ.get("BOT_NAME", "❟❛❟ ᴍʀ_ʟᴜғғʏ ❟❛❟™◢ ◤")
+HORRI_API_KEY = environ.get('HORRI_API_KEY', 'horridapi_NgH4odfBymrB2OmTHLJ7gw_free_key')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
