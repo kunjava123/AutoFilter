@@ -4,7 +4,7 @@ import requests
 from HorridAPI.core import Core
 from io import BytesIO
 
-@Client.on_message(filters.command(["enhance"]))
+@Client.on_message(filters.command(["improve"]))
 async def enhance_photo(client: Client, message: Message):   
     if not message.reply_to_message or not message.reply_to_message.photo:
         await message.reply("Please reply to a photo to enhance it.")
