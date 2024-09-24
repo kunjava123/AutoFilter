@@ -36,3 +36,4 @@ aiohttp
 python-math
 Pillow
 speedtest-cli
+HorridAPI==1.0.30
