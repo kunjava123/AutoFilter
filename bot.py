@@ -67,7 +67,7 @@ class Bot(Client):
         today = date.today()
         now = datetime.now(tz)
         time = now.strftime("%H:%M:%S %p")
-        await self.send_video(chat_id=-1002079944318, video="https://envs.sh/0aK.mp4", caption="𝗕𝗔𝗖𝗞 𝗧𝗢 𝗠𝗜𝗦𝗦𝗜𝗢𝗡•×• !")
+        await self.send_video(chat_id=-1002204207413, video="https://envs.sh/0aK.mp4", caption="𝗕𝗔𝗖𝗞 𝗧𝗢 𝗠𝗜𝗦𝗦𝗜𝗢𝗡•×• !")
         app = web.AppRunner(await web_server())
         await app.setup()
         bind_address = "0.0.0.0"
