@@ -160,7 +160,7 @@ async def start(client, message):
                           InlineKeyboardButton('Movie Group', url=GRP_LNK),
                           InlineKeyboardButton('Movie Updates', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/mntgxo")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/stroker_kidd")
                          ]
                         ]
                     )
@@ -176,10 +176,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Movie Group', url=GRP_LNK),
-                          InlineKeyboardButton('Movie Updates', url=CHNL_LNK)
+                          InlineKeyboardButton('Movie Group', url=https://t.me/movies_kottaaram),
+                          InlineKeyboardButton('Movie Updates', url=https://t.me/mk_movies_linkz)
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/mntgxo")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/stroker_kidd")
                          ]
                         ]
                     )
