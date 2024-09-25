@@ -35,7 +35,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonurl:https://t.me/movies_kottaaram)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonalert:Cʀᴇᴀᴛᴇᴅ ʙʏ Madox )</code>"""
+<code>[Button Text](buttonalert:Cʀᴇᴀᴛᴇᴅ ʙʏ t.me/stroker_kidd )</code>"""
 
     AUTOFILTER_TXT = """ʜᴇʟᴘ: <b>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ</b>
 <b>ɴᴏᴛᴇ: Fɪʟᴇ Iɴᴅᴇx</b>
