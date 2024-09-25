@@ -4,7 +4,7 @@
 
 
 import os
-from plugins.Newfuction.fotnt_string import Fonts
+from plugins.mn_features.fotnt_string import Fonts
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
