@@ -731,7 +731,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton('Movie Group', url=https"://t.me/movies_kottaaram"),
                                 InlineKeyboardButton('Movie Updates', url=https"://t.me/mk_movies_linkz")
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/stroker_kidd")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url=(https"://t.me/stroker_kidd")
                                 ]
                                 ]
                             )
@@ -801,10 +801,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Movie Group', url=@movies_kottaaram),
-                  InlineKeyboardButton('Movie Updates', url=@mk_movies_linkz)
+                  InlineKeyboardButton('Movie Group', url=(https"://t.me/movies_kottaaram")
+                  InlineKeyboardButton('Movie Updates', url=(https"://t.me/mk_movies_linkz")
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/stroker_kidd")
+                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url=(https"://t.me/stroker_kidd")
                  ]
                 ]
             )
@@ -1139,7 +1139,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⚡Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⚡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data=https"://t.me/stroker_kid"),
+                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data=https"://t.me/stroker_kid")
                     InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=https"://t.me/movies_kottaaram")
                 ],[
                     InlineKeyboardButton('🌀 Hᴇʟᴘ🌀', callback_data='help'),
@@ -1225,7 +1225,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🕵️Movie Group🕵️', url=@movies_kottaaram),
+            InlineKeyboardButton('🕵️Movie Group🕵️', url=(https"://t.me/movies_kottaaram")
             InlineKeyboardButton('❤️Sᴏᴜʀᴄᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('🏠Hᴏᴍᴇ🏠', callback_data='start'),
@@ -1431,7 +1431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/stroker_kidd")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url=(https"://t.me/stroker_kidd")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
