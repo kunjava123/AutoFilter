@@ -165,7 +165,7 @@ Cʀᴇᴀᴛᴇᴅ ʙʏ Madox </b>"""
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : Madox
 • ᴜꜱᴇʀɴᴀᴍᴇ : @stroker_kidd
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/stroker_kid'>Madox</a></b>"""
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/stroker_kid'>Madox 💗</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
