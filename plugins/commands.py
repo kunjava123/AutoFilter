@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('🤖 Updates', url=("https://t.me/mk_movies_linkz"))
             ],
             [
-                InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', url=f"https://t.me/{temp.Madox💗}?start=help"),
             ]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -49,7 +49,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚡Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⚡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
+                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data="t.me/stroker_kidd"),
                     InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/movies_kottaaram")
                 ],[
                     InlineKeyboardButton('🌀 Hᴇʟᴘ🌀', callback_data='help'),
@@ -77,9 +77,9 @@ async def start(client, message):
             elif chnl_num == 3:
                 channel_num = "3ʀᴅ"
             else:
-                channel_num = str(chnl_num)+"ᴛʜ"
+ https"          channel_num = str(chnl_num)+"ᴛʜ"
             btn.append([
-                InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=link)
+                InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", url=https"://t.me/mk_movies_linkz")
             ])
 
         if message.command[1] != "subscribe":
@@ -100,8 +100,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚡Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⚡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=https://t.me/movies_kottaaram)
+                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data="t.me/stroker_kidd"),
+                    InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=https"://t.me/movies_kottaaram")
                 ],[
                     InlineKeyboardButton('🌀 Hᴇʟᴘ🌀', callback_data='help'),
                     InlineKeyboardButton(' 🌀Aʙᴏᴜᴛ🌀', callback_data='about')
@@ -295,8 +295,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Movie Group', url=https://t.me/movies_kottaaram),
-                      InlineKeyboardButton('Movie Updates', url=https://t.me/mk_movies_linkz)
+                      InlineKeyboardButton('Movie Group', url=https"://t.me/movies_kottaaram"),
+                      InlineKeyboardButton('Movie Updates', url=https"://t.me/mk_movies_linkz")
                    ],[
                       InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/stroker_kidd")
                      ]
@@ -349,8 +349,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
                    [
                      [
-                      InlineKeyboardButton('Movie Group', url=https://t.me/movies_kottaaram),
-                      InlineKeyboardButton('Movie Updates', url=https://t.me/mk_movies_linkz)
+                      InlineKeyboardButton('Movie Group', url=https"://t.me/movies_kottaaram"),
+                      InlineKeyboardButton('Movie Updates', url=https"://t.me/mk_movies_linkz")
                    ],[
                       InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/stroker_kidd")
                      ]
