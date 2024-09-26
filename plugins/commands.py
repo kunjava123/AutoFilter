@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url=("https://t.me/mk_movies_linkz"))
+                InlineKeyboardButton('🤖 Updates', url=("https://t.me/mk_movies_linkz")
             ],
             [
-                InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', url=f"https://t.me/{temp.Madox💗}?start=help"),
+                InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', url=f"https://t.me/{temp.Madox}?start=help"),
             ]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -258,7 +258,7 @@ async def start(client, message):
                 )
                 return
             btn = [[
-                InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
+                InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.Madox}?start=files_{fileid}")
             ]]
             await message.reply_text(
                 text=f"<b>Hᴇʏ {message.from_user.mention}, Yᴏᴜ ᴀʀᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ !\nNᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ ᴀʟʟ ᴍᴏᴠɪᴇs ᴛɪʟʟ ᴛʜᴇ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</b>",
