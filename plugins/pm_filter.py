@@ -80,6 +80,7 @@ async def pm_text(bot, message):
         text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
     )
 
+
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
@@ -157,20 +158,25 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )
         else:
             btn.insert(0, 
                 [
-                    
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )            
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                
+                InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
             ]
         )
     try:
@@ -243,7 +249,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        
+        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -326,14 +332,17 @@ async def language_check(bot, query):
             if settings['auto_delete']:
                 btn.insert(0, 
                     [
-                        
+                        InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                        InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                        InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
                     ]
                 )
 
             else:
                 btn.insert(0, 
                     [
-                        
+                        InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                        InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
                     ]
                 )
                     
@@ -341,7 +350,9 @@ async def language_check(bot, query):
             await save_group_settings(query.message.chat.id, 'auto_delete', True)
             btn.insert(0, 
                 [
-                    
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )
         
@@ -351,7 +362,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            
+            InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
         ])
 
         if offset != "":
@@ -1134,7 +1145,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⚡Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⚡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('🕵️Movie Group🕵️', url=GRP_LNK)
+                    InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🌀 Hᴇʟᴘ🌀', callback_data='help'),
                     InlineKeyboardButton(' 🌀Aʙᴏᴜᴛ🌀', callback_data='about')
@@ -1219,7 +1230,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            
+            InlineKeyboardButton('🕵️Movie Group🕵️', url=GRP_LNK),
             InlineKeyboardButton('❤️Sᴏᴜʀᴄᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('🏠Hᴏᴍᴇ🏠', callback_data='start'),
@@ -1425,7 +1436,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/aktelegram1")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/mntgxo")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1600,20 +1611,25 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )
         else:
             btn.insert(0, 
                 [
-                    
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
                 ]
             )       
     except KeyError:
         await save_group_settings(message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                
+                InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
             ]
         )
 
@@ -1623,7 +1639,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        
+        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
 
     if offset != "":
@@ -1683,46 +1699,62 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>📫 Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Fᴏʀ Yᴏᴜʀ Query is {search}.</b>"
+        cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}.</b>"
     if imdb and imdb.get('poster'):
         try:
-            mes=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
-                                      reply_markup=InlineKeyboardMarkup(btn))
-            if settings["auto_delete"]:
+            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            try:
+                if settings['auto_delete']:
+                    await asyncio.sleep(600)
+                    await hehe.delete()
+                    await message.delete()
+            except KeyError:
+                await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(600)
-                await mes.delete()
-                dai=await message.reply(f"<b>Hey</b> {message.from_user.first_name},\n\n<b>Your Request Has Been Deleted 👍 \n <i>(Due To Avoid Copyrights Issue😌) </i>\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                await asyncio.sleep(100)
-                await dai.delete()
+                await hehe.delete()
+                await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            sir=await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
-            if settings["auto_delete"]:
+            hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            try:
+                if settings['auto_delete']:
+                    await asyncio.sleep(600)
+                    await hmm.delete()
+                    await message.delete()
+            except KeyError:
+                await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(600)
-                await sir.delete()
-                dai=await message.reply(f"<b>Hey</b> {message.from_user.first_name},\n\n<b>Your Request Has Been Deleted 👍 \n <i>(Due To Avoid Copyrights Issue😌) </i>\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                await asyncio.sleep(100)
-                await dai.delete()
+                await hmm.delete()
+                await message.delete()
         except Exception as e:
             logger.exception(e)
-            andi=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-            if settings["auto_delete"]:
+            fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            try:
+                if settings['auto_delete']:
+                    await asyncio.sleep(600)
+                    await fek.delete()
+                    await message.delete()
+            except KeyError:
+                await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(600)
-                await andi.delete()
-                dai=await message.reply(f"<b>Hey</b> {message.from_user.first_name},\n\n<b>Your Request Has Been Deleted 👍 \n <i>(Due To Avoid Copyrights Issue😌) </i>\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-                await asyncio.sleep(100)
-                await dai.delete()
+                await fek.delete()
+                await message.delete()
     else:
-        perfectok=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-        if settings["auto_delete"]:
+        fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        try:
+            if settings['auto_delete']:
+                await asyncio.sleep(600)
+                await fuk.delete()
+                await message.delete()
+        except KeyError:
+            await save_group_settings(message.chat.id, 'auto_delete', True)
             await asyncio.sleep(600)
-            await perfectok.delete()
-            dai=await message.reply(f"<b>Hey</b> {message.from_user.first_name},\n\n<b>Your Request Has Been Deleted 👍 \n <i>(Due To Avoid Copyrights Issue😌) </i>\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-            await asyncio.sleep(100)
-            await dai.delete()
+            await fuk.delete()
+            await message.delete()
     if spoll:
         await msg.message.delete()
+
 
 async def advantage_spell_chok(client, msg):
     mv_id = msg.id
