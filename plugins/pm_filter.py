@@ -728,10 +728,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
-                                InlineKeyboardButton('Movie Group', ("url=t.me/movies_kottaaram"),
-                                InlineKeyboardButton('Movie Updates', ("url=t.me/mk_movies_linkz")
+                                InlineKeyboardButton('Movie Group', "url=https://t.me/movies_kottaaram"),
+                                InlineKeyboardButton('Movie Updates', "url=https://t.me/mk_movies_linkz")
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", ("url=t.me/stroker_kidd")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", "url=https://t.me/stroker_kidd")
                                 ]
                                 ]
                             )
@@ -801,10 +801,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Movie Group', ("url=t.me/movies_kottaaram")
-                  InlineKeyboardButton('Movie Updates', ("url=t.me/mk_movies_linkz")
+                  InlineKeyboardButton('Movie Group', "url=https://t.me/movies_kottaaram")
+                  InlineKeyboardButton('Movie Updates', "url=https://t.me/mk_movies_linkz")
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", ("url=t.me/stroker_kidd")
+                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", "url=https://t.me/stroker_kidd")
                  ]
                 ]
             )
@@ -1139,7 +1139,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⚡Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⚡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data=("t.me/stroker_kid")
+                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='about')
                     InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=("t.me/movies_kottaaram")
                 ],[
                     InlineKeyboardButton('🌀 Hᴇʟᴘ🌀', callback_data='help'),
