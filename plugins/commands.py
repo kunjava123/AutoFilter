@@ -160,7 +160,7 @@ async def start(client, message):
                           InlineKeyboardButton('Movie Group', url="https://t.me/movies_kottaaram")
                           InlineKeyboardButton('Movie Updates', url="https://t.me/mk_movies_linkz")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", ("url=https://t.me/stroker_kidd")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", "url=https://t.me/stroker_kidd")
                          ]
                         ]
                     )
