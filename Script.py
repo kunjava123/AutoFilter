@@ -163,9 +163,9 @@ Cʀᴇᴀᴛᴇᴅ ʙʏ Madox </b>"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Madox
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Madox 💗
 • ᴜꜱᴇʀɴᴀᴍᴇ : @stroker_kidd
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/stroker_kid'>Madox 💗</a></b>"""
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/stroker_kid'>Madox</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
