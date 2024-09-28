@@ -220,7 +220,7 @@ Hi Gentleman 😍 You're File Is Ready,(^_^)
 💥 𝙅𝙊𝙄𝙉 :- https://t.me/mk_movies_linkz
 💥 𝙅𝙊𝙄𝙉 :- https://t.me/movies_kottaaram
                     
-╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝ """
+╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝ </blockquote> """
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
