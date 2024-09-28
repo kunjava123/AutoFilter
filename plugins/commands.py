@@ -77,7 +77,7 @@ async def start(client, message):
             elif chnl_num == 3:
                 channel_num = "3ʀᴅ"
             else:
- https"          channel_num = str(chnl_num)+"ᴛʜ"
+                channel_num = str(chnl_num)+"ᴛʜ"
             btn.append([
                 InlineKeyboardButton(f"❆ Jᴏɪɴ {channel_num} Cʜᴀɴɴᴇʟ ❆", "url=https://t.me/mk_movies_linkz")
             ])
