@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 mongo_url = DATABASE_URI
 
 @Client.on_message(filters.command("ask"))
-async def openai(client, message):
+async def ask(client, message):
     text = " ".join(message.command[1:])
     if len(message.command) < 2:
         return await message.reply_text("Please provide a query!")
