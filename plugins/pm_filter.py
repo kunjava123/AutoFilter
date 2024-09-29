@@ -6,7 +6,6 @@ import math
 import random
 import pyrogram
 lock = asyncio.Lock()
-GRP_LNK = ("t.me/movies_kottaaram")
 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
@@ -60,7 +59,7 @@ async def give_filter(client, message):
             return
         else:
             return await message.reply_text(
-                text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nFᴏʀ Mᴏᴠɪᴇs, Jᴏɪɴ @movies_kottaaram</b>",
+                text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nFᴏʀ Mᴏᴠɪᴇs, Jᴏɪɴ @Netflix_Group3</b>",
                 parse_mode=enums.ParseMode.HTML
             )
 @Client.on_message(filters.private & filters.text & filters.incoming)
@@ -728,10 +727,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
-                                InlineKeyboardButton('Movie Group', "url=https://t.me/movies_kottaaram"),
-                                InlineKeyboardButton('Movie Updates', "url=https://t.me/mk_movies_linkz")
+                                InlineKeyboardButton('Movie Group', url=GRP_LNK),
+                                InlineKeyboardButton('Movie Updates', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", "url=https://t.me/stroker_kidd")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/mntgxo")
                                 ]
                                 ]
                             )
@@ -801,10 +800,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Movie Group', url='https://t.me/movies_kottaaram'),
-                  InlineKeyboardButton('Movie Updates', url='https://t.me/mk_movies_linkz')
+                  InlineKeyboardButton('Movie Group', url=GRP_LNK),
+                  InlineKeyboardButton('Movie Updates', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url='https://t.me/stroker_kidd')
+                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/mntgxo")
                  ]
                 ]
             )
@@ -1139,8 +1138,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⚡Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⚡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data='about'),
-                    InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/movies_kottaaram")
+                    InlineKeyboardButton('🍷 Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
+                    InlineKeyboardButton('🌈Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🌀 Hᴇʟᴘ🌀', callback_data='help'),
                     InlineKeyboardButton(' 🌀Aʙᴏᴜᴛ🌀', callback_data='about')
@@ -1225,7 +1224,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🕵️Movie Group🕵️', url="https://t.me/movies_kottaaram"),
+            InlineKeyboardButton('🕵️Movie Group🕵️', url=GRP_LNK),
             InlineKeyboardButton('❤️Sᴏᴜʀᴄᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('🏠Hᴏᴍᴇ🏠', callback_data='start'),
@@ -1431,7 +1430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/stroker_kidd")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/mntgxo")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
