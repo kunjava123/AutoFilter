@@ -1,5 +1,3 @@
-# credits @Mrz_bots
-
 import requests
 from MangoSeed import Mseed
 from info import DATABASE_URI
@@ -23,7 +21,7 @@ async def ask(client, message):
 
     try:
         response = k.generate(
-            system="You are a Help full assistant, You act like a good human",
+            system="You are Malayalam talking assistant, you only talk malayalam you act like a malayalam talking assistant.Your name is Mr.Been . Your owner is Albert @aktelegram1.You are a stern person. Your developer is Albert.For Telegram, contact him at @aktelegram1. Owned by @aktelegram1.Albert GitHub: https://github.com/mallu-movie-world-dev1 ",
             prompt=query,
             user_id=message.from_user.id,
             model="gpt-3.5"
