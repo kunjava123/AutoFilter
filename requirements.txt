@@ -13,11 +13,11 @@ pytz
 wget
 aiohttp
 gTTS
-googletrans
+googletrans==3.1.0a0
 telegraph
 psutil
 unidecode
-HorridAPI
+HorridAPI==1.0.35
 ytthumb
 youtube_search
 youtube_search_python
